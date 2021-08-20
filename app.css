@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*nav bar styles*/
+nav {
+    height: 80px;
+    width: 100%;
+    background: #6b74a5;
+}
+/* logo style*/
+ label.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 100px;
+    line-height: 80px;
+    font-family:    cursive;
+}
+/*nav ul tag*/
+nav ul{
+    float: right;
+    margin-right: 90px;
+}
+/*nav li*/
+nav li{
+    display: inline-block;
+    margin: 9px;
+    line-height: 80px;
+}
+/*nav a tag*/
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    
+}
+a:hover{
+    border: 1px solid whitesmoke;
+    transition: 4s;
+}
+section {
+    background: url(app2.jpg.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+ h1{
+     font-size: 45px;
+     color:  #00e6e6;
+     padding-top: 100px;
+     margin-left: 70px;
+ }
+ p{
+     font-size: 30px;
+     color: whitesmoke;
+     margin-left: 60px;
+ }
+ .btn{
+     margin-left: 19%;
+     font-size: large;
+     border-radius: 4px;
+     width: 100px;
+     margin-top: 40px;
+     padding: 5px;
+     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+     font-family: cursive;
+     border-style: dashed;
+     cursor: pointer;
+ }
+ 
+ 
+ .div1{
+     text-align: center;
+     margin-top: 100px;
+
+
+ }
+ 
+.container{
+    background-color: #5599aa
+    ;
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 150px;
+    padding: 20px;
+    border-radius: 40px;
+}
+  .p1{
+     color: white;
+    font-size: larger;
+    font-family: cursive;
+    margin-left: -10px;
+    margin-top: 45px;
+}
+.p2{
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+    margin-left: -80px;
+}
+.inp{
+    padding: 10px;
+    height: 10px;
+    font-family: cursive;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.ps{
+    padding: 10px;
+    height: 10px;
+    border-radius: 20px;
+    font-family: cursive;
+    border: none;
+    outline: none;
+}
+.sbt{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: inherit;
+    margin-top: 20px;
+    font-family: cursive;
+    margin-left: 0;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h2{
+    margin-top: -50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
